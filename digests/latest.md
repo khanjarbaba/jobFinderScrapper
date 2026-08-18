@@ -1,4 +1,4 @@
-# Job Digest — 2026-08-18 18:00 UTC
+# Job Digest — 2026-08-18 18:14 UTC
 
 1 posting(s) matched above threshold. All compensation figures are in INR; foreign-currency conversions use live FX as of Tue, 18 Aug 2026 00:02:31 +0000.
 
