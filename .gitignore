@@ -1,0 +1,12 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+# HTTP/scraper response cache is disposable — never commit it.
+cache/*
+!cache/.gitkeep
+*.log
+
+# data/jobs.db and digests/*.md ARE committed intentionally so state and
+# the reviewable output both live in the repo across scheduled runs.

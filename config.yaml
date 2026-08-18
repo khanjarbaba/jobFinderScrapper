@@ -1,0 +1,158 @@
+# Job discovery + CV-tailoring pipeline configuration.
+# Nothing in this file is a secret — API keys live in .env / repo secrets.
+
+role:
+  titles:
+    - "Product Owner"
+    - "Product Manager"
+    - "Technical Product Manager"
+    - "Technical Product Owner"
+    - "Senior Product Manager"
+    - "APM"  # excluded later by seniority filter if too junior, kept here for search recall
+  # Any of these appearing as the *dominant* flavor of the JD is a hard exclude,
+  # even if the title says "Product Manager".
+  exclude_if_dominant_theme:
+    - "marketing"
+    - "growth marketing"
+    - "brand"
+    - "campaign management"
+    - "demand generation"
+    - "content marketing"
+
+seniority:
+  min_years: 5
+  max_years: 8
+  # listings stating a floor above this are excluded (too senior)
+  hard_ceiling_years: 10
+  # listings stating a ceiling below this are excluded (too junior)
+  hard_floor_years: 4
+
+location:
+  base_country: "India"
+  domestic_cities:
+    - "Gurugram"
+    - "Gurgaon"
+    - "Bangalore"
+    - "Bengaluru"
+    - "Hyderabad"
+    - "Mumbai"
+  international_regions:
+    - "Europe"
+    - "United States"
+    - "USA"
+    - "US"
+  # Tier priority, lower number = higher priority in the digest
+  tier_priority:
+    remote: 1
+    domestic: 2
+    international: 3
+
+employer_type:
+  prioritize_keywords:
+    - "B2B SaaS"
+    - "product-based"
+    - "product company"
+    - "PaaS"
+    - "API platform"
+    - "integration platform"
+    - "integrations"
+    - "OAuth"
+    - "ATS"
+    - "HRTech"
+    - "enterprise software"
+  deprioritize_keywords:
+    - "IT services"
+    - "staff augmentation"
+    - "staffing"
+    - "consulting"
+    - "client projects"
+    - "professional services"
+  # score delta applied by the matcher when employer_type is service-based
+  # vs product-company, at equal role-fit — keeps this from being a "minor bump"
+  service_based_penalty: 20
+
+hard_filters:
+  exclude_keywords:
+    - "intern"
+    - "internship"
+    - "trainee"
+    - "entry level"
+    - "entry-level"
+    - "contract to hire"
+    - "contract-to-hire"
+    - "freelance"
+    - "unpaid"
+    - "stipend"
+    - "equity only"
+    - "equity-only"
+  exclude_employment_types:
+    - "contract"
+    - "temporary"
+    - "internship"
+    - "freelance"
+
+matching:
+  # minimum role-fit score (0-100) required to reach the digest
+  score_threshold: 70
+  model: "claude-sonnet-5"
+  max_description_chars: 12000
+
+sponsorship:
+  # phrases that count as an explicit sponsorship signal in a JD
+  confirmed_phrases:
+    - "visa sponsorship"
+    - "we sponsor"
+    - "h1b sponsorship"
+    - "sponsor h1b"
+    - "relocation assistance"
+    - "relocation package"
+    - "skilled worker visa"
+    - "sponsor a visa"
+  # Tier 3 listings below this confidence are excluded from the digest
+  min_confidence_to_include: "likely"   # one of: confirmed, likely, unconfirmed
+
+salary:
+  target_currency: "INR"
+  # used only if a live FX API is unavailable at run time
+  fallback_fx_to_inr:
+    USD: 87.0
+    EUR: 94.0
+    GBP: 110.0
+  cache_ttl_days: 30
+
+search:
+  # keywords passed to each source's query/search parameter where supported
+  keywords:
+    - "Product Manager"
+    - "Product Owner"
+    - "Technical Product Manager"
+    - "Technical Product Owner"
+  results_per_source_per_run: 40
+
+sources:
+  tier1:
+    himalayas: { enabled: true }
+    remoteok: { enabled: true }
+    weworkremotely: { enabled: true }
+    jsearch: { enabled: false }   # requires RAPIDAPI_KEY
+    adzuna: { enabled: false }    # requires ADZUNA_APP_ID / ADZUNA_APP_KEY
+  tier2:
+    # Cutshort's public API is recruiter-facing only (candidate search / job
+    # posting for employers) — there is no job-listing endpoint for job
+    # seekers, so it cannot be used as an ingestion source. See
+    # ingest/cutshort.py for details. Left here (disabled) so the config
+    # shape matches the original spec.
+    cutshort: { enabled: false }
+    naukri: { enabled: false, cities: ["Gurugram", "Bangalore", "Hyderabad", "Mumbai"] }
+    instahyre: { enabled: false }
+    hirist: { enabled: false }
+    foundit: { enabled: false }
+    iimjobs: { enabled: false }
+  tier3:
+    arbeitnow: { enabled: true }
+    wellfound: { enabled: false }
+    usponsorme: { enabled: false }
+
+output:
+  digest_dir: "digests"
+  db_path: "data/jobs.db"
