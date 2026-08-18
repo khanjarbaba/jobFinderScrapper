@@ -110,9 +110,31 @@ def run_matching(cfg: dict, store) -> int:
     rows = store.postings_needing_match()
     logger.info("matching %d postings needing a score", len(rows))
     matched_count = 0
-    for row in rows:
+    consecutive_failures = 0
+    max_consecutive_failures = 3
+    for i, row in enumerate(rows):
         job = _row_to_job_posting(row)
-        result = matcher.score_posting(job, cfg)
+        try:
+            result = matcher.score_posting(job, cfg)
+        except Exception as exc:  # noqa: BLE001
+            # Transient failure (billing, rate limit, network, bad response) -
+            # do NOT save a match row, so this posting stays eligible for the
+            # next run instead of getting stuck as permanently unscored.
+            logger.warning("matching call failed for %r (%s), will retry next run: %s",
+                            job.title, job.url, exc)
+            consecutive_failures += 1
+            if consecutive_failures >= max_consecutive_failures:
+                remaining = len(rows) - i - 1
+                logger.error(
+                    "%d consecutive matching failures, stopping early (likely a "
+                    "systemic issue - billing, bad API key, outage). %d untried "
+                    "postings will be retried next run.",
+                    consecutive_failures, remaining,
+                )
+                break
+            continue
+
+        consecutive_failures = 0
         store.save_match(
             row["url_hash"],
             role_fit_score=result.role_fit_score,

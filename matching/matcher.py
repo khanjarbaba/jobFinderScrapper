@@ -178,11 +178,15 @@ def score_posting(job: JobPosting, cfg: dict) -> MatchResult:
     if keyword_reason:
         return MatchResult(hard_filtered=True, hard_filter_reason=keyword_reason)
 
-    try:
-        parsed = _call_claude(job, cfg)
-    except Exception as exc:  # noqa: BLE001
-        logger.warning("matching call failed for %s (%s): %s", job.title, job.url, exc)
-        return MatchResult(hard_filtered=True, hard_filter_reason=f"matcher error: {exc}")
+    # Deliberately NOT caught here: a Claude call can fail for reasons that
+    # have nothing to do with this posting (billing, rate limit, network
+    # blip, a malformed response). Swallowing that into a permanent
+    # hard_filtered match row would mean this posting - and every other one
+    # in the same failed run - never gets retried, since
+    # store.postings_needing_match() only checks whether a match row exists
+    # at all. The caller (main.py) catches this per-posting and simply
+    # skips saving a match, so the posting stays eligible for the next run.
+    parsed = _call_claude(job, cfg)
 
     if not parsed.get("is_technical_product_role", True):
         return MatchResult(
