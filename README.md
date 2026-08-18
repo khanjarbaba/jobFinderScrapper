@@ -8,13 +8,40 @@ manual step in a separate Claude.ai Project you paste JDs into.
 ## Pipeline
 
 ```
-ingest/ -> store/ (dedup) -> matching/ (Claude scoring + hard filters)
+ingest/ -> store/ (dedup) -> matching/ (heuristic OR Claude scoring + hard filters)
         -> salary_enrichment/ -> review_queue/ (digest.md)
 ```
 
 `main.py` runs all of it and is idempotent — re-running never duplicates a
 posting, never re-spends a match or salary call on something already
 scored, and always regenerates `digests/latest.md` from current DB state.
+
+## Matching modes: free vs. Claude-scored
+
+`config.yaml -> matching.mode` picks the backend, and it's the only thing
+you need to change to switch:
+
+- `"heuristic"` (default) — free, regex/keyword scoring in
+  `matching/heuristic.py`. No `ANTHROPIC_API_KEY` needed at all, for
+  matching or salary enrichment. Trade-off, stated plainly: it can't
+  actually read a JD, so it's weakest exactly where reading comprehension
+  matters most — catching a "Product" title whose real responsibilities are
+  marketing (only caught via keyword density, so subtler cases slip
+  through), and inferring an *implied* (not exact-phrase) sponsorship
+  signal for Tier 3 listings (only exact phrases count, so borderline
+  international listings are more likely to be excluded than under `"llm"`
+  mode). See `matching/heuristic.py`'s docstring for the full list.
+- `"llm"` — Claude-scored via `matching/llm.py`, catches the nuance above.
+  Costs a small amount of API usage per new posting. Needs
+  `ANTHROPIC_API_KEY` with usable credits (get one at
+  [console.anthropic.com](https://console.anthropic.com) → Settings → API
+  Keys, and add credits under Settings → Billing — it's billed separately
+  from any Claude.ai subscription).
+
+Both modes share the same hard filters and location-tier logic
+(`matching/common.py`), so switching modes never changes what counts as
+"remote" vs. "domestic" vs. "international" — only how the role-fit score,
+marketing-flavor judgment, and sponsorship confidence get decided.
 
 ## Setup
 
@@ -27,10 +54,13 @@ pip install -r requirements.txt
 cp .env.example .env
 ```
 
-Fill in `.env`:
-- `ANTHROPIC_API_KEY` — required. Without it, ingestion still runs and
-  postings are stored, but matching/salary enrichment (and therefore the
-  digest) are skipped for that run — a warning is logged, nothing crashes.
+With `matching.mode: heuristic` (the default), you can run the pipeline
+right now with no `.env` changes at all. `.env` only matters if you switch
+to `matching.mode: llm`:
+- `ANTHROPIC_API_KEY` — required for `"llm"` mode. Without it, matching +
+  salary enrichment are skipped for that run — a warning is logged, nothing
+  crashes, and those postings get scored on the next run once the key is
+  available (or just leave `matching.mode: heuristic` and never need it).
 - `RAPIDAPI_KEY`, `ADZUNA_APP_ID`, `ADZUNA_APP_KEY` — optional, only needed
   if you flip `sources.tier1.jsearch.enabled` / `sources.tier1.adzuna.enabled`
   to `true` in `config.yaml`.

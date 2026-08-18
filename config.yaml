@@ -92,6 +92,15 @@ hard_filters:
     - "freelance"
 
 matching:
+  # "heuristic" = free, regex/keyword scoring, zero API calls. Weakest at
+  #     catching a "Product" title whose real responsibilities are marketing
+  #     (needs actual reading comprehension) and at inferring an implied
+  #     (not exact-phrase) sponsorship signal for Tier 3 - see
+  #     matching/heuristic.py's docstring for the full list of trade-offs.
+  #     Good enough to run the whole pipeline for free.
+  # "llm" = Claude-scored (see `model` below), catches the nuance above,
+  #     costs a small amount of API usage per new posting.
+  mode: "heuristic"
   # minimum role-fit score (0-100) required to reach the digest
   score_threshold: 70
   model: "claude-sonnet-5"

@@ -2,19 +2,25 @@
 
 Exercises the real store/matching/salary_enrichment/digest code paths on
 fixture JobPostings, with only the two Claude API call sites monkeypatched
-(matcher._call_claude, enrich._llm_market_estimate, enrich.get_fx_rates).
+(matching.llm._call_claude, enrich._llm_market_estimate, enrich.get_fx_rates).
 This proves the plumbing - schema, joins, hard filters, employer-type
 weighting, sponsorship gating, salary parsing/caching, tier grouping - works
 without needing a real ANTHROPIC_API_KEY or network access.
+
+This specifically tests matching.mode: "llm" (config.yaml defaults to
+"heuristic" for zero-cost runs; see tests/test_heuristic_matcher.py for
+that backend).
 """
 from __future__ import annotations
 
+import copy
 from pathlib import Path
 
 import pytest
 
 from ingest.base import JobPosting
 from matching import matcher
+from matching import llm as matching_llm
 from review_queue import digest as digest_module
 from salary_enrichment import enrich
 from settings import load_config
@@ -151,7 +157,12 @@ def _fixture_jobs() -> list[JobPosting]:
 
 @pytest.fixture
 def cfg():
-    return load_config()
+    # load_config() is @lru_cache'd (one shared dict for the whole test
+    # session) - deep-copy so this test's mode override can't leak into
+    # other tests that also call load_config().
+    config = copy.deepcopy(load_config())
+    config["matching"]["mode"] = "llm"
+    return config
 
 
 @pytest.fixture
@@ -165,7 +176,7 @@ def test_end_to_end_pipeline(monkeypatch, cfg, store):
     def fake_call_claude(job, _cfg):
         return FAKE_LLM_RESPONSES[job.url]
 
-    monkeypatch.setattr(matcher, "_call_claude", fake_call_claude)
+    monkeypatch.setattr(matching_llm, "_call_claude", fake_call_claude)
     monkeypatch.setattr(enrich, "get_fx_rates", lambda _cfg: (FIXED_FX, "fixed test rates"))
 
     llm_estimate_calls = []

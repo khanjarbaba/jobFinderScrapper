@@ -102,7 +102,19 @@ class JobStore:
     # ---- postings -----------------------------------------------------
 
     def upsert_posting(self, job: JobPosting) -> tuple[str, bool]:
-        """Insert if new, else touch last_seen_at. Returns (url_hash, is_new)."""
+        """Insert if new, else refresh its fields + last_seen_at. Returns
+        (url_hash, is_new).
+
+        Refreshing on every re-sight (not just touching last_seen_at) matters
+        in practice: a source can correct its own data (Himalayas can revise
+        a listing), and ingest/ classification logic can improve over time -
+        stored postings shouldn't stay frozen at whatever was true the first
+        time they were seen. This does NOT re-trigger matching for postings
+        that already have a match row - if a fix changes how a stored
+        posting should classify, its existing match needs manual clearing to
+        actually get re-scored (see the store/db.py module docstring's
+        status lifecycle for how that's meant to be a deliberate action).
+        """
         url_hash = job.url_hash()
         now = _now()
         existing = self.conn.execute(
@@ -110,8 +122,20 @@ class JobStore:
         ).fetchone()
         if existing:
             self.conn.execute(
-                "UPDATE postings SET last_seen_at = ? WHERE url_hash = ?",
-                (now, url_hash),
+                """
+                UPDATE postings SET
+                    last_seen_at = ?, title = ?, company = ?, location = ?,
+                    description = ?, posted_date = ?, visa_sponsorship = ?,
+                    remote_type = ?, employment_type = ?, salary_text = ?
+                WHERE url_hash = ?
+                """,
+                (
+                    now, job.title, job.company, job.location, job.description,
+                    job.posted_date,
+                    None if job.visa_sponsorship is None else int(job.visa_sponsorship),
+                    job.remote_type, job.employment_type, job.salary_text,
+                    url_hash,
+                ),
             )
             self.conn.commit()
             return url_hash, False

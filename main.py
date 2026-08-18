@@ -99,11 +99,14 @@ def run_dedup(cfg: dict, postings: list[JobPosting], store) -> tuple[int, int]:
 
 
 def run_matching(cfg: dict, store) -> int:
-    if not env("ANTHROPIC_API_KEY"):
+    mode = cfg["matching"].get("mode", "llm")
+    if mode == "llm" and not env("ANTHROPIC_API_KEY"):
         logger.warning(
-            "ANTHROPIC_API_KEY not set - skipping matching + salary enrichment for "
-            "this run. Postings were still ingested and deduped; they'll be scored "
-            "on the next run once the key is available."
+            "matching.mode is 'llm' but ANTHROPIC_API_KEY is not set - skipping "
+            "matching + salary enrichment for this run. Postings were still "
+            "ingested and deduped; they'll be scored on the next run once the "
+            "key is available. Set matching.mode: heuristic in config.yaml for "
+            "free, no-API scoring instead."
         )
         return 0
 

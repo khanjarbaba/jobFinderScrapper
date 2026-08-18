@@ -29,7 +29,23 @@ def _to_job_posting(job: dict) -> JobPosting:
         salary_text = f"{currency} {min_sal or ''}-{max_sal or ''} {period}".strip()
 
     locations = job.get("locationRestrictions") or []
-    location = ", ".join(locations) if locations else "Worldwide (remote)"
+    if locations:
+        location = ", ".join(locations)
+        # Every Himalayas listing is remote in the sense of "not an office
+        # job," but locationRestrictions is an eligibility restriction, not
+        # a description of where the team sits. A listing restricted to
+        # e.g. Malaysia isn't actually open to an India-based candidate the
+        # way an unrestricted listing is, so only treat it as tier-1 "remote
+        # from anywhere" when the restriction is empty or explicitly broad -
+        # otherwise let matching/common.classify_location_tier's normal
+        # domestic/international logic (and, for tier 3, the sponsorship
+        # gate) decide what it actually is instead of mislabeling every
+        # geo-restricted listing as open remote work.
+        lowered = location.lower()
+        remote_type = "remote" if ("worldwide" in lowered or "india" in lowered) else None
+    else:
+        location = "Worldwide (remote)"
+        remote_type = "remote"
 
     return JobPosting(
         title=job.get("title", "").strip(),
@@ -40,7 +56,7 @@ def _to_job_posting(job: dict) -> JobPosting:
         source="himalayas",
         posted_date=job.get("pubDate"),
         visa_sponsorship=None,
-        remote_type="remote",
+        remote_type=remote_type,
         employment_type=job.get("employmentType"),
         salary_text=salary_text,
         raw=job,

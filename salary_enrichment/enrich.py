@@ -155,7 +155,19 @@ def _normalize_cache_key(company: str, title: str, location: str) -> str:
 
 
 def _llm_market_estimate(job: JobPosting, cfg: dict) -> Optional[SalaryResult]:
-    client = _get_client()
+    # No API key is a normal state (e.g. matching.mode: heuristic runs with
+    # no ANTHROPIC_API_KEY at all) - treat it the same as "no basis for an
+    # estimate" rather than raising, so the caller falls through to
+    # "Not disclosed" instead of crashing the whole run.
+    if not env("ANTHROPIC_API_KEY"):
+        return None
+
+    try:
+        client = _get_client()
+    except Exception as exc:  # noqa: BLE001
+        logger.info("no usable Claude client for salary estimate (%s): %s", job.title, exc)
+        return None
+
     model = cfg["matching"]["model"]
     prompt = f"""Give a best-effort estimate of ANNUAL total compensation, in INR \
 lakhs per annum (LPA), for this role. Base it on general market knowledge of \
@@ -205,7 +217,17 @@ Remote type: {job.remote_type}
 def enrich_salary(job: JobPosting, cfg: dict, store) -> SalaryResult:
     fx_rates, _ = get_fx_rates(cfg)
 
+    # job.salary_text only exists when a source's API exposed a structured
+    # salary field (e.g. Himalayas' minSalary/maxSalary) - many postings
+    # state a salary only in the free-text JD body instead (seen live: a
+    # WWR listing with "Yearly gross salary range: USD 48,000 - 65,000" in
+    # its description, salary_text empty). Try the structured field first
+    # since it's unambiguous, then fall back to scanning the description
+    # with the same regex before giving up on "stated" and moving to the
+    # estimate/cache path.
     stated = _parse_stated_salary(job.salary_text or "", fx_rates)
+    if not stated:
+        stated = _parse_stated_salary(job.description or "", fx_rates)
     if stated:
         return stated
 

@@ -1,10 +1,70 @@
-# Job Digest — 2026-08-18 17:40 UTC
+# Job Digest — 2026-08-18 18:00 UTC
 
-0 posting(s) matched above threshold. All compensation figures are in INR; foreign-currency conversions use live FX as of Tue, 18 Aug 2026 00:02:31 +0000.
+1 posting(s) matched above threshold. All compensation figures are in INR; foreign-currency conversions use live FX as of Tue, 18 Aug 2026 00:02:31 +0000.
 
 ## 🏠 Remote
 
-_No matches this run._
+---
+## MailerLite — Technical Product Manager
+Location: Worldwide (remote) | Employer type: Product/PaaS-SaaS
+Match score: 80/100 — Heuristic match: 4 product/SaaS keyword hit(s), seniority=fits, employer_type=product
+Salary: ₹45.9-62.2 LPA, stated (converted from USD)
+Apply link: https://weworkremotely.com/remote-jobs/mailerlite-technical-product-manager
+
+### JD (paste this into CV Project)
+```
+Headquarters: Lithuania
+URL: https://www.mailerlite.com/company-values
+MailerLite is one of the fastest-growing email marketing services. We help more than 1 million businesses around the world stay in touch with their customers. Today, we are a team of more than 170 dreamers, adventurers, and world travelers passionate about what we do and what we believe in. And we are ready for another talented person to join the party.
+We are looking for an experienced Technical Product Manager with a great understanding of technology and a passion for enabling other teams. This is a role where your main customers are engineers and internal teams. You’ll work on the shared foundations and capabilities that other teams rely on to build and ship quickly, reliably, and at scale. Join us now.
+Why MailerLite?
+You'll turn big ideas into reality
+With ambitious plans for our product and team, you'll play a key role in making them happen—solving exciting challenges and driving changes that keep our own product-engineering teams stay fast and reliable, and our customers successful.
+You'll grow, develop and evolve
+As part of a team that's always looking for new, innovative ways to offer value to customers, you'll constantly be experimenting, learning, and trying out new things.
+You'll take ownership
+We expect you to take full responsibility and ownership of your tasks. Team leads avoid micromanaging and minimize interruptions so you can stay focused on your assignments.
+You’ll have experts on hand
+Whenever you’re stuck, your teammates with a wide range of expertise are ready to help you grow. And they’d love for you to share your knowledge too!
+You'll pick where you work, every day
+We embrace the remote culture. Every day you get to choose the environment makes you most productive.
+You'll have stability
+We value a stable workplace! MailerLite has been thriving for over 10 years and our year-over-year growth continues to increase.
+What you’ll work on
+Partnering with the technical lead to drive the strategy and roadmap for Platform, developing a deep understanding of what the platform needs next
+Working on initiatives in areas like: our public API and developer experience (versioning, documentation, observability), AI and agent interfaces such as MCP, deliverability and safety (keeping the platform clean for legitimate senders)
+Work with data and reporting platforms, collaborating closely with SRE on performance and scale
+Working on shared foundations that every other team depends on, including our design system, and regulatory work
+Working collaboratively with customers, development, design, SRE, customer support, and marketing to deliver impactful features, seamlessly launch projects, and create excitement around the product — while driving innovative improvements that set the product apart
+Defining, analyzing, and optimizing metrics to grow MailerLite while measuring impact and reporting on progress
+Applying product management best practices including conducting product discovery, leveraging data insights, and exploring AI-driven innovations to uncover new product opportunities
+What we expect from you
+4+ years of experience working in a SaaS-focused company, including experience with platform, infrastructure, API or internal-tooling products - where your primary customers are other engineers, internal teams, or external developers
+Solid understanding or working knowledge of APIs and integrations, with experience scoping integration work with engineers
+Solid understanding of MCP and current AI trends, with an AI-first approach to your own work: research, documentation, delivery
+Strong collaboration and communication skills, with experience in aligning multiple product areas and stakeholders
+Experience working in agile environments alongside high-performing backend developers, leading on refinement, backlog grooming, sprint planning and prioritisation.
+Demonstrated understanding of modern product discovery and delivery techniques
+Strong analytical skills, such as the ability to leverage data and AI insights to uncover opportunities and drive product improvements
+Ability to take ownership of the end-to-end idea-to-product process and work as a self-directed member of the development team.
+Experience with ProductOps is a bonus
+Based in EMEA
+What we offer
+Yearly gross salary range: USD 48,000 - 65,000
+Remote-first culture: Our team works remotely from around the world
+International health insurance: Provided with coverage in most countries, with a monthly payout available in select countries where coverage is limited
+Company-paid retreats: Once a year, we gather for a week to work, learn, and have fun together
+31 days of vacation (including public holidays): We encourage you to unplug and recharge!
+12 paid sick days: For your physical and mental well-being, no doctor's note required. Parents can use them to care for their sick children
+4 creative days: One paid day off per quarter to do something creative and fun
+12 parental days: Enjoy one paid day off each month to treasure time with your children
+Parental leave: 100% paid leave when welcoming a new child through birth (3 months maternity, 1 month paternity) or adoption
+Parenting budget of $1000: A $1000 special gift to celebrate the arrival of your little one, whether through childbirth or adoption
+Joy Budget: Annual allowance to spend on what brings you joy, starting at $1,000 per year and increasing over time
+MacBook and other tools: These help you to do your job efficiently
+To apply: https://weworkremotely.com/remote-jobs/mailerlite-technical-product-manager
+```
+---
 
 ## 📍 Domestic (Gurugram/Bangalore/Hyderabad/Mumbai)
 
