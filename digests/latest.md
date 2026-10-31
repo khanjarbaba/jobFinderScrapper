@@ -1,6 +1,6 @@
-# Job Digest — 2026-10-30 09:34 UTC
+# Job Digest — 2026-10-31 09:15 UTC
 
-12 posting(s) matched above threshold. All compensation figures are in INR; foreign-currency conversions use live FX as of Fri, 30 Oct 2026 00:02:31 +0000.
+12 posting(s) matched above threshold. All compensation figures are in INR; foreign-currency conversions use live FX as of Sat, 31 Oct 2026 00:02:31 +0000.
 
 ## 🏠 Remote
 
@@ -90,95 +90,6 @@ Apply link: https://himalayas.app/companies/aline/jobs/product-technical-product
 <li>Experience in healthcare or healthcare interoperability (HL7, FHIR)</li>
 <li>Familiarity with authentication protocols (OAuth 2.0, SAML, etc.)</li>
 </ul><p>Originally posted on <a href="https://himalayas.app">Himalayas</a></p>
-```
----
-
----
-## Tether Operations Limited — Senior Technical Product Manager - Keet (100% Remote)
-Location: Remote job | Employer type: Product/PaaS-SaaS
-Match score: 75/100 — Heuristic match: 3 product/SaaS keyword hit(s), seniority=fits, employer_type=product
-Salary: Not disclosed
-Apply link: https://www.arbeitnow.co.uk/jobs/companies/tether-operations-limited/senior-technical-product-manager-keet-100-remote-united-kindom-476048
-
-### JD (paste this into CV Project)
-```
-Join Tether and Shape the Future of Digital Finance
-At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction.
-Innovate with Tether
-Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT, relied upon by hundreds of millions worldwide, alongside pioneering digital asset tokenization services.
-But that’s just the beginning:
-Tether Power: Driving sustainable growth, our energy solutions optimize excess power for Bitcoin mining using eco-friendly practices in state-of-the-art, geo-diverse facilities.
-Tether Data: Fueling breakthroughs in AI and peer-to-peer technology, we reduce infrastructure costs and enhance global communications with cutting-edge solutions like KEET, our flagship app that redefines secure and private data sharing.
-Tether Education: Democratizing access to top-tier digital learning, we empower individuals to thrive in the digital and gig economies, driving global growth and opportunity.
-Tether Evolution: At the intersection of technology and human potential, we are pushing the boundaries of what is possible, crafting a future where innovation and human capabilities merge in powerful, unprecedented ways.
-Why Join Us?
-Our team is a global talent powerhouse, working remotely from every corner of the world. If you’re passionate about making a mark in the fintech space, this is your opportunity to collaborate with some of the brightest minds, pushing boundaries and setting new standards. We’ve grown fast, stayed lean, and secured our place as a leader in the industry.
-If you have excellent English communication skills and are ready to contribute to the most innovative platform on the planet, Tether is the place for you.
-Are you ready to be part of the future?
-About the job
-Keet is a fully peer-to-peer messaging and video calling app built on Holepunch's P2P stack. There are no servers, no middlemen, and no data harvesting. People talk directly to each other, with end-to-end encryption by design.
-We are looking for a Senior Technical Product Manager to own the vision for Keet and lead it to a billion users, competing head-on with WhatsApp and Telegram. This is not a maintenance role. You will define where Keet goes, convince the board and the team that it is the right direction, and then drive the execution that gets it there.
-You are a rare combination of three things. You are a product visionary who has shipped consumer chat or calling apps at scale. You are a technologist who can go deep on P2P architecture and the Pear / Holepunch stack (docs.pears.com). And you are a hands-on builder who uses AI tools to prototype and prove concepts in days, not months. You set the bar high, move at incredible speed, and lead from the front.
-You will also be the person who catches what others miss. The PM who thrives here reads every ticket, tracks every dependency, asks the uncomfortable question before it becomes a launch incident, and keeps five workstreams moving simultaneously without losing the thread on any of them.
-If you prefer a PM role where you set strategy and delegate execution, this is not the right fit. If you want to build something that ships to real users, moves markets, and carries your fingerprints from concept to production, we want to hear from you.
-Responsibilities
-Vision & Strategy
-Own and articulate the long-term product vision for Keet as the world's leading private, peer-to-peer communication app, with a clear path to 1 billion users.
-Analyze WhatsApp, Telegram, Signal, LINE, WeChat and emerging competitors to identify where P2P gives Keet an unfair advantage, and build the roadmap around it.
-Present product vision, strategy, metrics and progress to the board and executive leadership with clarity and conviction.
-Define a growth strategy across acquisition, activation, retention and virality, with measurable targets at every stage.
-Technical Product Leadership
-Develop a deep working understanding of the Holepunch P2P stack (Pear runtime, Bare, Hypercore, Hyperswarm, HyperDHT, Autobase, Hyperbee) and translate its capabilities and constraints into product decisions.
-Partner with core engineering on hard P2P problems at scale, including NAT traversal, offline sync, multi-device support, large groups, push notifications, and battery and data efficiency on mobile.
-Own the real-time calling experience (1:1 and group voice and video, plus screen sharing) to a quality bar that matches or beats Google Meet and Zoom.
-Define clear feature tiers with explicit labels for stable versus experimental functionality.
-Rapid Prototyping with AI
-Use AI coding and design tools to build working prototypes and demos that prove concepts before committing engineering resources.
-Turn ideas into something the team, users and the board can see and touch within days.
-Execution & Team Leadership
-Lead the product team and run the sprint cadence end to end, covering planning, prioritization, standups, reviews and retrospectives.
-Own deliverables from conception through release, testing and post-launch iteration, ensuring core functionality works reliably every time.
-Maintain issue trackers and roadmaps that accurately reflect priorities and sprint commitments.
-Coordinate across engineering, QA, design, marketing and business stakeholders, and manage cross-team dependencies across the Holepunch and Tether ecosystem.
-Provide transparent updates on status, risks and timeline changes, and hold direct conversations about accountability when needed.
-Mobile & Distribution
-Own the mobile release process across iOS and Android. This includes App Store and Google Play submissions, review guidelines, compliance, store listings, ratings and release management.
-Oversee desktop distribution and installers across macOS, Windows and Linux.
-Build crash reporting, debugging and analytics systems, privacy-preserving by design, that turn user reports into actionable engineering data.
-Mandatory:
-8+ years of product management experience, including significant time in a senior or lead role owning a consumer product end to end.
-Strong product sense, with a proven track record of setting product vision and driving it to measurable outcomes at scale (tens of millions of users or more).
-Experience leading engineers who ship products, including running sprint cadences with predictable delivery across cross-functional teams.
-Deep JavaScript and React skills. You can read and write production code, review pull requests, and build working prototypes yourself.
-Intuition for distributed and local-first systems. You don't need P2P expertise, because our core abstracts it away, but you should be able to reason about sync, offline behavior and consistency trade-offs.
-Hands-on experience shipping and scaling mobile apps on iOS and Android, with deep familiarity with App Store and Google Play logistics, review processes and release management.
-Experience with real-time voice and video calling products (such as Google Meet, Zoom, FaceTime or WhatsApp calls) and the quality, latency and reliability trade-offs involved.
-Demonstrated ability to use AI tools to rapidly prototype and demonstrate product concepts.
-Exceptional communication skills, with experience presenting vision and strategy to boards, executives and investors.
-A strong understanding of urgency versus importance, and the judgment to make fast, high-quality decisions with incomplete information.
-You thrive in a high-intensity, fast-moving environment, set an exceptionally high bar, and are willing to go above and beyond, including extended hours, when the mission demands it.
-Excellent written and spoken English.
-Nice to have:
-Product leadership experience at a major messaging app such as WhatsApp, Telegram, LINE, WeChat, Signal, Viber or KakaoTalk.
-Experience with peer-to-peer technologies, distributed systems or decentralized protocols. Prior exposure to Holepunch, Pear or Hypercore is a strong plus.
-Experience growing a product in emerging markets or across multiple regions and languages.
-A background in privacy, encryption or security-focused products.
-Familiarity with Electron, React Native or similar cross-platform frameworks, as well as installer systems, boot performance and Linux packaging (Snap, AppImage, Flatpak).
-A solid understanding of testing approaches (unit, integration, end-to-end), test automation and performance testing.
-An engineering background or computer science degree.
-Experience with Git, issue trackers and modern collaboration tools.
-Why this role:
-The next billion-user communication app will not run on someone else's servers. If you want to be the person who defines it, presents it to the board, prototypes it yourself, and then leads the team that ships it, we want to hear from you.
-In your application, include a link to a product you have shipped or a prototype you have built, along with a few sentences on how you would take Keet to 1 billion users.
-Important information for candidates
-Recruitment scams have become increasingly common. To protect yourself, please keep the following in mind when applying for roles:
-Apply only through our official channels. We do not use third-party platforms or agencies for recruitment unless clearly stated. All open roles are listed on our official careers page: https://tether.recruitee.com/
-Verify the recruiter’s identity. All our recruiters have verified LinkedIn profiles. If you’re unsure, you can confirm their identity by checking their profile or contacting us through our website.
-Be cautious of unusual communication methods. We do not conduct interviews over WhatsApp, Telegram, or SMS. All communication is done through official company emails and platforms.
-Double-check email addresses. All communication from us will come from emails ending in @tether.to or @tether.io
-We will never request payment or financial details. If someone asks for personal financial information or payment at any point during the hiring process, it is a scam. Please report it immediately.
-When in doubt, feel free to reach out through our official website.
-Find more English Speaking Jobs in United Kingdom on Arbeitnow
 ```
 ---
 
@@ -487,11 +398,11 @@ Find Jobs in United Kingdom on Arbeitnow
 ---
 
 ---
-## Tether Operations Limited — AI Technical Product Manager (QVAC) (100% remote)
+## Tether Operations Limited — Senior Technical Product Manager - Keet (100% Remote)
 Location: Remote job | Employer type: Product/PaaS-SaaS
-Match score: 70/100 — Heuristic match: 2 product/SaaS keyword hit(s), seniority=fits, employer_type=product
+Match score: 75/100 — Heuristic match: 3 product/SaaS keyword hit(s), seniority=fits, employer_type=product
 Salary: Not disclosed
-Apply link: https://www.arbeitnow.co.uk/jobs/companies/tether-operations-limited/ai-technical-product-manager-qvac-100-remote-london-29643
+Apply link: https://www.arbeitnow.co.uk/jobs/companies/tether-operations-limited/senior-technical-product-manager-keet-100-remote-united-kindom-476048
 
 ### JD (paste this into CV Project)
 ```
@@ -509,36 +420,60 @@ Our team is a global talent powerhouse, working remotely from every corner of th
 If you have excellent English communication skills and are ready to contribute to the most innovative platform on the planet, Tether is the place for you.
 Are you ready to be part of the future?
 About the job
-QV.AC is a general purpose AI assistant that runs locally on your devices, it gives users greater control over their data and how they use artificial intelligence. Our focus is on local, on-device, and privacy-preserving AI, with opportunities to connect these experiences across Tether’s peer-to-peer ecosystem.
-We’re looking for a Product Manager with a strong interest in AI and a practical understanding of how to turn emerging capabilities into useful products.
-You will work closely with the Product Lead to help advance the QV.AC vision: identifying valuable use cases, defining AI features, exploring product concepts, and working with engineering and design to bring them to users. You’ll contribute to product direction and take responsibility for moving assigned features from discovery through delivery and iteration.
-This role suits someone who knows how to leverage AI to the maximum and enjoys experimenting with new AI technologies, understands its possibilities and limitations, and cares about making complex technology easy to use.
+Keet is a fully peer-to-peer messaging and video calling app built on Holepunch's P2P stack. There are no servers, no middlemen, and no data harvesting. People talk directly to each other, with end-to-end encryption by design.
+We are looking for a Senior Technical Product Manager to own the vision for Keet and lead it to a billion users, competing head-on with WhatsApp and Telegram. This is not a maintenance role. You will define where Keet goes, convince the board and the team that it is the right direction, and then drive the execution that gets it there.
+You are a rare combination of three things. You are a product visionary who has shipped consumer chat or calling apps at scale. You are a technologist who can go deep on P2P architecture and the Pear / Holepunch stack (docs.pears.com). And you are a hands-on builder who uses AI tools to prototype and prove concepts in days, not months. You set the bar high, move at incredible speed, and lead from the front.
+You will also be the person who catches what others miss. The PM who thrives here reads every ticket, tracks every dependency, asks the uncomfortable question before it becomes a launch incident, and keeps five workstreams moving simultaneously without losing the thread on any of them.
+If you prefer a PM role where you set strategy and delegate execution, this is not the right fit. If you want to build something that ships to real users, moves markets, and carries your fingerprints from concept to production, we want to hear from you.
 Responsibilities
-Help shape AI features: Work with the Product Lead to translate the QV.AC vision into concrete use cases, feature proposals, and product requirements. Bring ideas grounded in user needs, research, and hands-on experimentation.
-Understand users and their problems: Gather feedback, conduct research, and explore how people use AI in their everyday workflows. Identify where AI can solve a meaningful problem and where a simpler solution may work better.
-Turn ideas into clear specifications: Write product briefs, user stories, acceptance criteria, and user flows that help engineering and design understand the intended experience, constraints, and measures of success.
-Prototype and explore: Create wireframes, mockups, and working prototypes to test ideas and communicate product behavior. Use AI-assisted tools to explore concepts quickly and refine them with the team.
-Collaborate on technical trade-offs: Work with engineers to understand what is feasible across devices and models. Help assess the impact of response quality, latency, memory usage, battery consumption, and privacy on the user experience.
-Support prioritization and planning: Help the Product Lead evaluate opportunities, clarify scope, identify dependencies, and maintain a focused backlog aligned with product priorities.
-Drive feature delivery: Follow assigned features through development, resolve product questions, review the experience, and coordinate feedback and release readiness with relevant teams.
-Stay close to AI developments: Explore new AI products, models, tools, and interaction patterns, and explain their practical relevance to QV.AC. Share clear recommendations about what is worth testing or adopting and why.
+Vision & Strategy
+Own and articulate the long-term product vision for Keet as the world's leading private, peer-to-peer communication app, with a clear path to 1 billion users.
+Analyze WhatsApp, Telegram, Signal, LINE, WeChat and emerging competitors to identify where P2P gives Keet an unfair advantage, and build the roadmap around it.
+Present product vision, strategy, metrics and progress to the board and executive leadership with clarity and conviction.
+Define a growth strategy across acquisition, activation, retention and virality, with measurable targets at every stage.
+Technical Product Leadership
+Develop a deep working understanding of the Holepunch P2P stack (Pear runtime, Bare, Hypercore, Hyperswarm, HyperDHT, Autobase, Hyperbee) and translate its capabilities and constraints into product decisions.
+Partner with core engineering on hard P2P problems at scale, including NAT traversal, offline sync, multi-device support, large groups, push notifications, and battery and data efficiency on mobile.
+Own the real-time calling experience (1:1 and group voice and video, plus screen sharing) to a quality bar that matches or beats Google Meet and Zoom.
+Define clear feature tiers with explicit labels for stable versus experimental functionality.
+Rapid Prototyping with AI
+Use AI coding and design tools to build working prototypes and demos that prove concepts before committing engineering resources.
+Turn ideas into something the team, users and the board can see and touch within days.
+Execution & Team Leadership
+Lead the product team and run the sprint cadence end to end, covering planning, prioritization, standups, reviews and retrospectives.
+Own deliverables from conception through release, testing and post-launch iteration, ensuring core functionality works reliably every time.
+Maintain issue trackers and roadmaps that accurately reflect priorities and sprint commitments.
+Coordinate across engineering, QA, design, marketing and business stakeholders, and manage cross-team dependencies across the Holepunch and Tether ecosystem.
+Provide transparent updates on status, risks and timeline changes, and hold direct conversations about accountability when needed.
+Mobile & Distribution
+Own the mobile release process across iOS and Android. This includes App Store and Google Play submissions, review guidelines, compliance, store listings, ratings and release management.
+Oversee desktop distribution and installers across macOS, Windows and Linux.
+Build crash reporting, debugging and analytics systems, privacy-preserving by design, that turn user reports into actionable engineering data.
 Mandatory:
-7+ years of product management experience, ideally working on AI software products with technical engineering teams.
-Practical experience building, shipping, or prototyping AI-powered features, with the ability to explain your contribution and what you learned.
-A working understanding of AI concepts such as inference, harnesses, model capabilities and limitations, context, and evaluation, alongside an interest in local and on-device AI.
-The ability to translate an ambiguous idea into a clear user problem, proposed solution, and actionable requirements.
-Strong product judgment, with attention to usability, scope, and measurable user value.
-Confidence creating prototypes using design or coding tools
-Clear written and verbal communication, including the ability to discuss technical trade-offs with engineers and explain them to non-technical colleagues.
-A proactive, collaborative approach: comfortable taking responsibility for your work, asking questions early, and incorporating feedback.
-Familiarity with product analytics, user research, and iterative software development.
-Preferred:
-Experience with local AI, on-device inference, or open-source models.
-Experience building AI assistants, conversational interfaces, or multimodal features.
-Familiarity with desktop or mobile product development.
-An understanding of peer-to-peer technologies and decentralized applications.
-Experience evaluating AI output quality and designing user experiences that account for uncertainty and errors.
-Experience working in a distributed team.
+8+ years of product management experience, including significant time in a senior or lead role owning a consumer product end to end.
+Strong product sense, with a proven track record of setting product vision and driving it to measurable outcomes at scale (tens of millions of users or more).
+Experience leading engineers who ship products, including running sprint cadences with predictable delivery across cross-functional teams.
+Deep JavaScript and React skills. You can read and write production code, review pull requests, and build working prototypes yourself.
+Intuition for distributed and local-first systems. You don't need P2P expertise, because our core abstracts it away, but you should be able to reason about sync, offline behavior and consistency trade-offs.
+Hands-on experience shipping and scaling mobile apps on iOS and Android, with deep familiarity with App Store and Google Play logistics, review processes and release management.
+Experience with real-time voice and video calling products (such as Google Meet, Zoom, FaceTime or WhatsApp calls) and the quality, latency and reliability trade-offs involved.
+Demonstrated ability to use AI tools to rapidly prototype and demonstrate product concepts.
+Exceptional communication skills, with experience presenting vision and strategy to boards, executives and investors.
+A strong understanding of urgency versus importance, and the judgment to make fast, high-quality decisions with incomplete information.
+You thrive in a high-intensity, fast-moving environment, set an exceptionally high bar, and are willing to go above and beyond, including extended hours, when the mission demands it.
+Excellent written and spoken English.
+Nice to have:
+Product leadership experience at a major messaging app such as WhatsApp, Telegram, LINE, WeChat, Signal, Viber or KakaoTalk.
+Experience with peer-to-peer technologies, distributed systems or decentralized protocols. Prior exposure to Holepunch, Pear or Hypercore is a strong plus.
+Experience growing a product in emerging markets or across multiple regions and languages.
+A background in privacy, encryption or security-focused products.
+Familiarity with Electron, React Native or similar cross-platform frameworks, as well as installer systems, boot performance and Linux packaging (Snap, AppImage, Flatpak).
+A solid understanding of testing approaches (unit, integration, end-to-end), test automation and performance testing.
+An engineering background or computer science degree.
+Experience with Git, issue trackers and modern collaboration tools.
+Why this role:
+The next billion-user communication app will not run on someone else's servers. If you want to be the person who defines it, presents it to the board, prototypes it yourself, and then leads the team that ships it, we want to hear from you.
+In your application, include a link to a product you have shipped or a prototype you have built, along with a few sentences on how you would take Keet to 1 billion users.
 Important information for candidates
 Recruitment scams have become increasingly common. To protect yourself, please keep the following in mind when applying for roles:
 Apply only through our official channels. We do not use third-party platforms or agencies for recruitment unless clearly stated. All open roles are listed on our official careers page: https://tether.recruitee.com/
@@ -610,7 +545,7 @@ Online assessment or practical task
 Technical interview
 CEO / final round
 For strong candidates, we aim to complete the process and make an offer within 1 week from the start of the interview process. Candidates who complete assessments quickly will be prioritized.
-Please mention the word **BECKONED** and tag RMjAuMTEyLjIzNi4yMzA= when applying to show you read the job post completely (#RMjAuMTEyLjIzNi4yMzA=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.
+Please mention the word **BECKONED** and tag RNTIuMTY1LjU5LjIw when applying to show you read the job post completely (#RNTIuMTY1LjU5LjIw). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.
 ```
 ---
 
@@ -676,6 +611,71 @@ Double-check email addresses. All communication from us will come from emails en
 We will never request payment or financial details. If someone asks for personal financial information or payment at any point during the hiring process, it is a scam. Please report it immediately.
 When in doubt, feel free to reach out through our official website.
 Find Jobs in United Kingdom on Arbeitnow
+```
+---
+
+---
+## Tether Operations Limited — AI Technical Product Manager (QVAC) (100% remote)
+Location: Remote job | Employer type: Product/PaaS-SaaS
+Match score: 70/100 — Heuristic match: 2 product/SaaS keyword hit(s), seniority=fits, employer_type=product
+Salary: Not disclosed
+Apply link: https://www.arbeitnow.co.uk/jobs/companies/tether-operations-limited/ai-technical-product-manager-qvac-100-remote-london-29643
+
+### JD (paste this into CV Project)
+```
+Join Tether and Shape the Future of Digital Finance
+At Tether, we’re not just building products, we’re pioneering a global financial revolution. Our cutting-edge solutions empower businesses—from exchanges and wallets to payment processors and ATMs—to seamlessly integrate reserve-backed tokens across blockchains. By harnessing the power of blockchain technology, Tether enables you to store, send, and receive digital tokens instantly, securely, and globally, all at a fraction of the cost. Transparency is the bedrock of everything we do, ensuring trust in every transaction.
+Innovate with Tether
+Tether Finance: Our innovative product suite features the world’s most trusted stablecoin, USDT, relied upon by hundreds of millions worldwide, alongside pioneering digital asset tokenization services.
+But that’s just the beginning:
+Tether Power: Driving sustainable growth, our energy solutions optimize excess power for Bitcoin mining using eco-friendly practices in state-of-the-art, geo-diverse facilities.
+Tether Data: Fueling breakthroughs in AI and peer-to-peer technology, we reduce infrastructure costs and enhance global communications with cutting-edge solutions like KEET, our flagship app that redefines secure and private data sharing.
+Tether Education: Democratizing access to top-tier digital learning, we empower individuals to thrive in the digital and gig economies, driving global growth and opportunity.
+Tether Evolution: At the intersection of technology and human potential, we are pushing the boundaries of what is possible, crafting a future where innovation and human capabilities merge in powerful, unprecedented ways.
+Why Join Us?
+Our team is a global talent powerhouse, working remotely from every corner of the world. If you’re passionate about making a mark in the fintech space, this is your opportunity to collaborate with some of the brightest minds, pushing boundaries and setting new standards. We’ve grown fast, stayed lean, and secured our place as a leader in the industry.
+If you have excellent English communication skills and are ready to contribute to the most innovative platform on the planet, Tether is the place for you.
+Are you ready to be part of the future?
+About the job
+QV.AC is a general purpose AI assistant that runs locally on your devices, it gives users greater control over their data and how they use artificial intelligence. Our focus is on local, on-device, and privacy-preserving AI, with opportunities to connect these experiences across Tether’s peer-to-peer ecosystem.
+We’re looking for a Product Manager with a strong interest in AI and a practical understanding of how to turn emerging capabilities into useful products.
+You will work closely with the Product Lead to help advance the QV.AC vision: identifying valuable use cases, defining AI features, exploring product concepts, and working with engineering and design to bring them to users. You’ll contribute to product direction and take responsibility for moving assigned features from discovery through delivery and iteration.
+This role suits someone who knows how to leverage AI to the maximum and enjoys experimenting with new AI technologies, understands its possibilities and limitations, and cares about making complex technology easy to use.
+Responsibilities
+Help shape AI features: Work with the Product Lead to translate the QV.AC vision into concrete use cases, feature proposals, and product requirements. Bring ideas grounded in user needs, research, and hands-on experimentation.
+Understand users and their problems: Gather feedback, conduct research, and explore how people use AI in their everyday workflows. Identify where AI can solve a meaningful problem and where a simpler solution may work better.
+Turn ideas into clear specifications: Write product briefs, user stories, acceptance criteria, and user flows that help engineering and design understand the intended experience, constraints, and measures of success.
+Prototype and explore: Create wireframes, mockups, and working prototypes to test ideas and communicate product behavior. Use AI-assisted tools to explore concepts quickly and refine them with the team.
+Collaborate on technical trade-offs: Work with engineers to understand what is feasible across devices and models. Help assess the impact of response quality, latency, memory usage, battery consumption, and privacy on the user experience.
+Support prioritization and planning: Help the Product Lead evaluate opportunities, clarify scope, identify dependencies, and maintain a focused backlog aligned with product priorities.
+Drive feature delivery: Follow assigned features through development, resolve product questions, review the experience, and coordinate feedback and release readiness with relevant teams.
+Stay close to AI developments: Explore new AI products, models, tools, and interaction patterns, and explain their practical relevance to QV.AC. Share clear recommendations about what is worth testing or adopting and why.
+Mandatory:
+7+ years of product management experience, ideally working on AI software products with technical engineering teams.
+Practical experience building, shipping, or prototyping AI-powered features, with the ability to explain your contribution and what you learned.
+A working understanding of AI concepts such as inference, harnesses, model capabilities and limitations, context, and evaluation, alongside an interest in local and on-device AI.
+The ability to translate an ambiguous idea into a clear user problem, proposed solution, and actionable requirements.
+Strong product judgment, with attention to usability, scope, and measurable user value.
+Confidence creating prototypes using design or coding tools
+Clear written and verbal communication, including the ability to discuss technical trade-offs with engineers and explain them to non-technical colleagues.
+A proactive, collaborative approach: comfortable taking responsibility for your work, asking questions early, and incorporating feedback.
+Familiarity with product analytics, user research, and iterative software development.
+Preferred:
+Experience with local AI, on-device inference, or open-source models.
+Experience building AI assistants, conversational interfaces, or multimodal features.
+Familiarity with desktop or mobile product development.
+An understanding of peer-to-peer technologies and decentralized applications.
+Experience evaluating AI output quality and designing user experiences that account for uncertainty and errors.
+Experience working in a distributed team.
+Important information for candidates
+Recruitment scams have become increasingly common. To protect yourself, please keep the following in mind when applying for roles:
+Apply only through our official channels. We do not use third-party platforms or agencies for recruitment unless clearly stated. All open roles are listed on our official careers page: https://tether.recruitee.com/
+Verify the recruiter’s identity. All our recruiters have verified LinkedIn profiles. If you’re unsure, you can confirm their identity by checking their profile or contacting us through our website.
+Be cautious of unusual communication methods. We do not conduct interviews over WhatsApp, Telegram, or SMS. All communication is done through official company emails and platforms.
+Double-check email addresses. All communication from us will come from emails ending in @tether.to or @tether.io
+We will never request payment or financial details. If someone asks for personal financial information or payment at any point during the hiring process, it is a scam. Please report it immediately.
+When in doubt, feel free to reach out through our official website.
+Find more English Speaking Jobs in United Kingdom on Arbeitnow
 ```
 ---
 
