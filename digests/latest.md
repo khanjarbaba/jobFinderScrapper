@@ -1,8 +1,78 @@
-# Job Digest — 2026-11-08 09:50 UTC
+# Job Digest — 2026-11-09 10:52 UTC
 
-12 posting(s) matched above threshold. All compensation figures are in INR; foreign-currency conversions use live FX as of Sun, 08 Nov 2026 00:02:31 +0000.
+13 posting(s) matched above threshold. All compensation figures are in INR; foreign-currency conversions use live FX as of Mon, 09 Nov 2026 00:02:31 +0000.
 
 ## 🏠 Remote
+
+---
+## ProArch — BA/Technical Product Manager
+Location: Worldwide (remote) | Employer type: Product/PaaS-SaaS
+Match score: 80/100 — Heuristic match: 4 product/SaaS keyword hit(s), seniority=fits, employer_type=product
+Salary: Not disclosed
+Apply link: https://weworkremotely.com/remote-jobs/proarch-ba-technical-product-manager
+
+### JD (paste this into CV Project)
+```
+Headquarters: United States
+URL: https://jobs.workable.com/company/u8TybTAE2YbYgRVFYov9t4/jobs-at-proarch
+Partner Discovery & Requirements Analysis
+Lead and document working sessions with clinical, finance, operations, product, and technical stakeholders to understand existing workflows, business rules, data requirements, and operational processes.
+Translate manual and system-supported workflows into structured business and functional requirements.
+Produce gap-analysis documentation mapping current-state processes and partner requirements to existing platform capabilities.
+Classify requirements based on appropriate disposition, such as existing functionality, configuration, new development, acceptable operational workaround, shared platform enhancement, or out of scope.
+Maintain a consistent backlog structure across implementations so requirements remain comparable, traceable, and reusable.
+System Reconciliation & Technical Analysis
+Analyze application logic, SQL, stored procedures, configuration parameters, integrations, and data flows to understand existing system behavior.
+Determine whether business requirements can be satisfied through configuration, existing functionality, process changes, or new development.
+Validate assumptions about platform behavior against available technical evidence and distinguish confirmed system behavior from inferred behavior.
+Identify discrepancies between documented behavior, stakeholder expectations, system configuration, and implemented logic.
+Trace business rules to underlying parameters, data elements, calculations, integrations, and system components.
+Identify where behaviors are configurable versus hardcoded and assess the impact on future implementations.
+Requirements Authoring
+Write clear business and functional requirements, user stories, acceptance criteria, assumptions, dependencies, open questions, and proposed workarounds.
+Maintain appropriate separation between business-facing requirements and technical implementation details.
+Ensure acceptance criteria reflect the agreed solution approach, including configuration changes, operational workarounds, or new functionality.
+Apply a consistent standard for distinguishing standalone requirements from assumptions, configuration decisions, implementation details, or operational procedures.
+Maintain traceability from business need through solution decision and development implementation.
+Cross-Functional Facilitation & Governance
+Facilitate requirements, solutioning, and review sessions across business, clinical, product, engineering, data, and operational teams.
+Drive open questions toward resolution and update requirements and documentation to reflect confirmed decisions.
+Identify ambiguity, conflicting requirements, downstream impacts, and cross-feature dependencies before development begins.
+Prevent scope drift and ensure implementation-specific requirements do not unintentionally become platform-wide requirements.
+Support prioritization and decision-making by clearly communicating business impact, implementation complexity, dependencies, and risk.
+Ticket Creation & Scoping
+Translate approved requirements into development-ready tickets containing problem statements, user stories, functional scope, acceptance criteria, dependencies, assumptions, and open questions.
+Partner with engineering and architecture teams to clarify technical scope and implementation approach.
+Track dependencies across features, integrations, implementations, and shared platform capabilities.
+Identify common capabilities that can support multiple clients, workflows, or future implementations rather than creating one-off solutions.
+8+ years of experience as a Business Analyst, Technical Product Manager, Product Owner, or equivalent role in a software-, data-, or technology-driven environment.
+Experience working within healthcare technology, healthcare operations, payer/provider systems, pharmacy, claims, revenue cycle, eligibility, or related healthcare domains.
+Ability to understand and reason about SQL, data structures, system logic, APIs, configuration, and technical workflows well enough to validate platform behavior and collaborate effectively with engineering teams.
+Demonstrated ability to write clear requirements, user stories, acceptance criteria, and development tickets that engineering teams can implement with minimal rework.
+Strong analytical rigor with the ability to distinguish confirmed facts from assumptions, challenge unclear reasoning, and validate conclusions.
+Experience facilitating requirements and solution-review sessions involving business, clinical, operational, and technical stakeholders.
+Strong written and verbal communication skills, with the ability to adapt business and technical information for different audiences.
+Preferred Qualifications
+Familiarity with healthcare claims, eligibility, reimbursement, clinical workflows, pharmacy operations, or healthcare financial processes.
+Experience working with configurable or rules-driven healthcare platforms.
+Experience supporting client, provider, health system, or partner implementations.
+Understanding of data pipelines, ETL processes, APIs, healthcare integrations, and data exchange concepts.
+Experience managing a shared product backlog across multiple customers, implementations, or business units.
+Familiarity with healthcare data standards, regulatory requirements, or privacy considerations such as HIPAA.
+Key Competencies
+Requirements elicitation and translation
+Healthcare workflow analysis
+Technical and data analysis
+System behavior reconciliation
+Product and backlog management
+Stakeholder facilitation and decision-driving
+Cross-functional collaboration
+Analytical rigor and structured problem-solving
+Dependency and impact analysis
+Documentation discipline and traceability
+To apply: https://weworkremotely.com/remote-jobs/proarch-ba-technical-product-manager
+```
+---
 
 ---
 ## MailerLite — Technical Product Manager
@@ -545,7 +615,7 @@ Online assessment or practical task
 Technical interview
 CEO / final round
 For strong candidates, we aim to complete the process and make an offer within 1 week from the start of the interview process. Candidates who complete assessments quickly will be prioritized.
-Please mention the word **BECKONED** and tag RMjAuODMuMjI4LjIzNQ== when applying to show you read the job post completely (#RMjAuODMuMjI4LjIzNQ==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.
+Please mention the word **BECKONED** and tag RNjguMjIwLjU5LjUy when applying to show you read the job post completely (#RNjguMjIwLjU5LjUy). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.
 ```
 ---
 
