@@ -1,6 +1,6 @@
-# Job Digest — 2026-11-15 10:22 UTC
+# Job Digest — 2026-11-16 10:36 UTC
 
-13 posting(s) matched above threshold. All compensation figures are in INR; foreign-currency conversions use live FX as of Sun, 15 Nov 2026 00:02:32 +0000.
+13 posting(s) matched above threshold. All compensation figures are in INR; foreign-currency conversions use live FX as of Mon, 16 Nov 2026 00:02:31 +0000.
 
 ## 🏠 Remote
 
@@ -615,7 +615,7 @@ Online assessment or practical task
 Technical interview
 CEO / final round
 For strong candidates, we aim to complete the process and make an offer within 1 week from the start of the interview process. Candidates who complete assessments quickly will be prioritized.
-Please mention the word **BECKONED** and tag RMTM0LjEzOC40Ni4xNjM= when applying to show you read the job post completely (#RMTM0LjEzOC40Ni4xNjM=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.
+Please mention the word **BECKONED** and tag RNTIuMTYxLjU1LjE5NA== when applying to show you read the job post completely (#RNTIuMTYxLjU1LjE5NA==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.
 ```
 ---
 
