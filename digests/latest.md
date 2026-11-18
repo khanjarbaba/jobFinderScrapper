@@ -1,6 +1,6 @@
-# Job Digest — 2026-11-17 11:27 UTC
+# Job Digest — 2026-11-18 11:05 UTC
 
-14 posting(s) matched above threshold. All compensation figures are in INR; foreign-currency conversions use live FX as of Tue, 17 Nov 2026 00:02:31 +0000.
+14 posting(s) matched above threshold. All compensation figures are in INR; foreign-currency conversions use live FX as of Wed, 18 Nov 2026 00:02:31 +0000.
 
 ## 🏠 Remote
 
@@ -615,7 +615,7 @@ Online assessment or practical task
 Technical interview
 CEO / final round
 For strong candidates, we aim to complete the process and make an offer within 1 week from the start of the interview process. Candidates who complete assessments quickly will be prioritized.
-Please mention the word **BECKONED** and tag RMjAuMTI1LjE4NC4xMDU= when applying to show you read the job post completely (#RMjAuMTI1LjE4NC4xMDU=). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.
+Please mention the word **BECKONED** and tag RNDAuNzQuMjA1LjI1MA== when applying to show you read the job post completely (#RNDAuNzQuMjA1LjI1MA==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.
 ```
 ---
 
@@ -761,50 +761,6 @@ Location: Paris | Employer type: Product/PaaS-SaaS
 Match score: 70/100 — Heuristic match: 2 product/SaaS keyword hit(s), seniority=fits, employer_type=product
 Salary: Not disclosed
 Sponsorship signal: confirmed — relocation package
-Apply link: https://www.arbeitnow.fr/jobs/companies/voodoo/senior-technical-product-manager-advertising-solutions-paris-474384
-
-### JD (paste this into CV Project)
-```
-About VoodooFounded in 2013, Voodoo is a tech company that creates mobile games and apps with a mission to entertain the world. Gathering 800 employees, 7 billion downloads, and over 200 million active users, Voodoo is the #3 mobile publisher worldwide in terms of downloads after Google and Meta. Our portfolio includes chart-topping games like Mob Control and Block Jam, alongside popular apps such as BeReal and Wizz.
-TeamThe Product, Engineering & Data teams are Voodoo's central tech hub. We build innovative tech products that allow us to stay ahead of the game in the mobile industry.
-Part of our focus is to provide a state of the art growth-engine to distribute and scale our apps & games. By joining the team, you will take part in this journey of designing and building long-term products which help our business teams in delivering values to millions of future users!
-Some examples of our products include our B2B platform used by hundreds of studios around the world to ideate and test their game prototypes, as well as an automated bidding platform that predicts the full value users will generate using state of the art ML algorithms.
-RoleAs the Product Manager - Advertising Solutions, you will play a crucial role in the growth and success of our direct advertising capabilities. Your primary focus will be to optimize and expand our ad solutions, driving revenue while maintaining a seamless experience for our players and advertisers. You will be responsible for growing our mobile gaming vertical from the end-to-end strategy to the development and execution, collaborating closely with cross-functional teams to ensure we meet our business goals.
-Role is based in our Paris headquarters with 1-2 remote days per week possible.
-Drive  and own product vision and roadmap, guide feature prioritization and scope, in concert with cross functional teams.
-Develop iteratively, working with our growth and tech teams (Developers, Product Managers and Data Analysts) to ideate, measure impact, and learn from previous releases to inform the roadmap.
-Dig in the technical aspect together with your tech team to understand tradeoffs and make informed design decisions.
-Daily involvement in project development and product delivery (you will be both the product owner and the product manager).
-Analyze and interpret ad solutions performance data to identify trends, opportunities, and areas for improvement.
-Establish and maintain relationships with key external partners, including MMPs, ad exchanges, and mediation platforms.
-ProfileProven experience of 5+ years as a Product Manager, with 3+ years in Adtech.
-Familiar with Bidder, DSP, SSP, ad exchanges, MMPs and ad servers
-Great communicator and a team player, who likes to drive results together.
-A problem-solver by nature – inventive thinker that will provide insightful, innovative solutions to any problem.
-Good tech culture and technical knowledge (you’re familiar with APIs, frontend and backend components) for someone who doesn’t code.
-You are fluent in English, French is a plus
-Interest in gaming.
-BenefitsCompetitive salary upon experience
-Comprehensive relocation package (including visa support)
-Swile restaurant lunch voucher
-Gymlib sports subscription (100% taken in charge by us)
-Sidecare healthcare coverage for your family
-Child day care facilities (Les Petits Chaperons rouge)
-Wellness activities in our Paris office
-Creative hackathon
-Unlimited vacation policy
-Full stack desk and computer equipment upon your request
-Cooperate within a globally diverse team and a rich cross-cultural work environment
-Find more English Speaking Jobs in France on Arbeitnow
-```
----
-
----
-## Voodoo — Senior Technical Product Manager - Advertising solutions
-Location: Paris | Employer type: Product/PaaS-SaaS
-Match score: 70/100 — Heuristic match: 2 product/SaaS keyword hit(s), seniority=fits, employer_type=product
-Salary: Not disclosed
-Sponsorship signal: confirmed — relocation package
 Apply link: https://www.arbeitnow.fr/jobs/companies/voodoo/senior-technical-product-manager-advertising-solutions-paris-420332
 
 ### JD (paste this into CV Project)
@@ -840,5 +796,49 @@ Unlimited vacation policy
 Full stack desk and computer equipment upon your request
 Cooperate within a globally diverse team and a rich cross-cultural work environment
 Find Jobs in France on Arbeitnow
+```
+---
+
+---
+## Voodoo — Senior Technical Product Manager - Advertising solutions
+Location: Paris | Employer type: Product/PaaS-SaaS
+Match score: 70/100 — Heuristic match: 2 product/SaaS keyword hit(s), seniority=fits, employer_type=product
+Salary: Not disclosed
+Sponsorship signal: confirmed — relocation package
+Apply link: https://www.arbeitnow.fr/jobs/companies/voodoo/senior-technical-product-manager-advertising-solutions-paris-474384
+
+### JD (paste this into CV Project)
+```
+About VoodooFounded in 2013, Voodoo is a tech company that creates mobile games and apps with a mission to entertain the world. Gathering 800 employees, 7 billion downloads, and over 200 million active users, Voodoo is the #3 mobile publisher worldwide in terms of downloads after Google and Meta. Our portfolio includes chart-topping games like Mob Control and Block Jam, alongside popular apps such as BeReal and Wizz.
+TeamThe Product, Engineering & Data teams are Voodoo's central tech hub. We build innovative tech products that allow us to stay ahead of the game in the mobile industry.
+Part of our focus is to provide a state of the art growth-engine to distribute and scale our apps & games. By joining the team, you will take part in this journey of designing and building long-term products which help our business teams in delivering values to millions of future users!
+Some examples of our products include our B2B platform used by hundreds of studios around the world to ideate and test their game prototypes, as well as an automated bidding platform that predicts the full value users will generate using state of the art ML algorithms.
+RoleAs the Product Manager - Advertising Solutions, you will play a crucial role in the growth and success of our direct advertising capabilities. Your primary focus will be to optimize and expand our ad solutions, driving revenue while maintaining a seamless experience for our players and advertisers. You will be responsible for growing our mobile gaming vertical from the end-to-end strategy to the development and execution, collaborating closely with cross-functional teams to ensure we meet our business goals.
+Role is based in our Paris headquarters with 1-2 remote days per week possible.
+Drive  and own product vision and roadmap, guide feature prioritization and scope, in concert with cross functional teams.
+Develop iteratively, working with our growth and tech teams (Developers, Product Managers and Data Analysts) to ideate, measure impact, and learn from previous releases to inform the roadmap.
+Dig in the technical aspect together with your tech team to understand tradeoffs and make informed design decisions.
+Daily involvement in project development and product delivery (you will be both the product owner and the product manager).
+Analyze and interpret ad solutions performance data to identify trends, opportunities, and areas for improvement.
+Establish and maintain relationships with key external partners, including MMPs, ad exchanges, and mediation platforms.
+ProfileProven experience of 5+ years as a Product Manager, with 3+ years in Adtech.
+Familiar with Bidder, DSP, SSP, ad exchanges, MMPs and ad servers
+Great communicator and a team player, who likes to drive results together.
+A problem-solver by nature – inventive thinker that will provide insightful, innovative solutions to any problem.
+Good tech culture and technical knowledge (you’re familiar with APIs, frontend and backend components) for someone who doesn’t code.
+You are fluent in English, French is a plus
+Interest in gaming.
+BenefitsCompetitive salary upon experience
+Comprehensive relocation package (including visa support)
+Swile restaurant lunch voucher
+Gymlib sports subscription (100% taken in charge by us)
+Sidecare healthcare coverage for your family
+Child day care facilities (Les Petits Chaperons rouge)
+Wellness activities in our Paris office
+Creative hackathon
+Unlimited vacation policy
+Full stack desk and computer equipment upon your request
+Cooperate within a globally diverse team and a rich cross-cultural work environment
+Find more English Speaking Jobs in France on Arbeitnow
 ```
 ---
