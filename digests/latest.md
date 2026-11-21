@@ -1,4 +1,4 @@
-# Job Digest — 2026-11-20 10:53 UTC
+# Job Digest — 2026-11-21 10:37 UTC
 
 14 posting(s) matched above threshold. All compensation figures are in INR; foreign-currency conversions use live FX as of Fri, 20 Nov 2026 00:02:32 +0000.
 
