@@ -1,64 +1,8 @@
-# Job Digest — 2026-11-23 11:45 UTC
+# Job Digest — 2026-11-24 13:14 UTC
 
-16 posting(s) matched above threshold. All compensation figures are in INR; foreign-currency conversions use live FX as of Mon, 23 Nov 2026 00:02:32 +0000.
+16 posting(s) matched above threshold. All compensation figures are in INR; foreign-currency conversions use live FX as of Tue, 24 Nov 2026 00:02:31 +0000.
 
 ## 🏠 Remote
-
----
-## Premier Global Links LLC — Senior Technical Product Manager
-Location: Worldwide (remote) | Employer type: Product/PaaS-SaaS
-Match score: 80/100 — Heuristic match: 4 product/SaaS keyword hit(s), seniority=fits, employer_type=product
-Salary: ₹157.7-231.9 LPA, stated (converted from USD)
-Apply link: https://weworkremotely.com/remote-jobs/premier-global-links-llc-senior-technical-product-manager
-
-### JD (paste this into CV Project)
-```
-Headquarters: Denver, Colorado, United States
-URL: https://premierglinks.com
-About the Opportunity
-Premier Global Links LLC is seeking an experienced Senior Technical Product Manager to join an innovative AI-powered financial technology company transforming the mortgage lending industry.
-This is a hands-on individual contributor role for a technically strong product leader who can take products from customer discovery to launch and continuous improvement. You will work closely with engineering teams and mortgage industry customers to build AI-driven solutions that simplify complex lending workflows.
-The ideal candidate combines strong technical expertise, startup experience, customer-focused product thinking, and a proven track record of launching products from the ground up.
-Key Responsibilities
-Own product areas end-to-end, from customer discovery and problem definition to roadmap development, launch, and post-launch optimization.
-Work directly with mortgage lenders and operations teams to understand lending workflows and identify product opportunities.
-Translate customer needs into technical specifications, product architecture decisions, and actionable engineering plans.
-Drive 0-to-1 product development, including new features, integrations, and AI-powered workflows.
-Collaborate closely with engineering and design teams on API design, data models, and integration architecture.
-Build and validate prototypes using AI coding tools and contribute to technical discussions.
-Define product success metrics and use customer feedback and performance data to guide improvements.
-Partner with Sales and Customer Success to support product positioning and customer adoption.
-Required Qualifications
-5–10 years of experience in technical product management or a closely related technical role.
-Demonstrated experience owning and launching products or major features from concept to production.
-Strong background in B2B SaaS within a startup or high-growth technology environment.
-Direct experience in mortgage lending, loan origination systems (LOS), underwriting, lending operations, or regulated financial technology.
-Strong technical understanding of API design, data models, system integrations, and software architecture.
-Hands-on experience launching AI/LLM-powered features or workflows used by real customers in production.
-Ability to use AI coding tools such as Claude Code or Cursor for prototyping and product validation.
-Strong customer discovery, analytical thinking, communication, and decision-making skills.
-Must be authorized to work in the United States without employer-sponsored visa support.
-Willingness to travel domestically approximately once per month.
-Preferred Qualifications
-Experience building mortgage technology, loan origination, underwriting, or financial workflow automation products.
-Experience with AI agents, LLM applications, production AI workflows, and model evaluation.
-Technical background in software engineering, forward-deployed engineering, or product development.
-Familiarity with TypeScript and modern software development environments.
-Previous founder, early-stage startup, or founding product team experience.
-Experience working in fast-moving, resource-constrained environments.
-Compensation and Benefits
-Base salary: $170,000–$250,000 annually, depending on experience and qualifications.
-Competitive equity package.
-Opportunity to work with an experienced engineering team.
-Remote work within the United States.
-Opportunity to shape AI-powered products in the mortgage and financial technology industry.
-Work Arrangement
-This is a full-time, U.S.-based remote position. Candidates should be comfortable with approximately monthly domestic travel to customer locations, with occasional additional travel around important project milestones.
-Equal Employment Opportunity
-Premier Global Links LLC is an Equal Opportunity Employer. We consider qualified applicants without regard to race, color, religion, sex, national origin, age, disability, veteran status, or any other status protected by applicable law.
-To apply: https://weworkremotely.com/remote-jobs/premier-global-links-llc-senior-technical-product-manager
-```
----
 
 ---
 ## MailerLite — Technical Product Manager
@@ -216,6 +160,62 @@ Analytical rigor and structured problem-solving
 Dependency and impact analysis
 Documentation discipline and traceability
 To apply: https://weworkremotely.com/remote-jobs/proarch-ba-technical-product-manager
+```
+---
+
+---
+## Premier Global Links LLC — Senior Technical Product Manager
+Location: Worldwide (remote) | Employer type: Product/PaaS-SaaS
+Match score: 80/100 — Heuristic match: 4 product/SaaS keyword hit(s), seniority=fits, employer_type=product
+Salary: ₹157.7-231.9 LPA, stated (converted from USD)
+Apply link: https://weworkremotely.com/remote-jobs/premier-global-links-llc-senior-technical-product-manager
+
+### JD (paste this into CV Project)
+```
+Headquarters: Denver, Colorado, United States
+URL: https://premierglinks.com
+About the Opportunity
+Premier Global Links LLC is seeking an experienced Senior Technical Product Manager to join an innovative AI-powered financial technology company transforming the mortgage lending industry.
+This is a hands-on individual contributor role for a technically strong product leader who can take products from customer discovery to launch and continuous improvement. You will work closely with engineering teams and mortgage industry customers to build AI-driven solutions that simplify complex lending workflows.
+The ideal candidate combines strong technical expertise, startup experience, customer-focused product thinking, and a proven track record of launching products from the ground up.
+Key Responsibilities
+Own product areas end-to-end, from customer discovery and problem definition to roadmap development, launch, and post-launch optimization.
+Work directly with mortgage lenders and operations teams to understand lending workflows and identify product opportunities.
+Translate customer needs into technical specifications, product architecture decisions, and actionable engineering plans.
+Drive 0-to-1 product development, including new features, integrations, and AI-powered workflows.
+Collaborate closely with engineering and design teams on API design, data models, and integration architecture.
+Build and validate prototypes using AI coding tools and contribute to technical discussions.
+Define product success metrics and use customer feedback and performance data to guide improvements.
+Partner with Sales and Customer Success to support product positioning and customer adoption.
+Required Qualifications
+5–10 years of experience in technical product management or a closely related technical role.
+Demonstrated experience owning and launching products or major features from concept to production.
+Strong background in B2B SaaS within a startup or high-growth technology environment.
+Direct experience in mortgage lending, loan origination systems (LOS), underwriting, lending operations, or regulated financial technology.
+Strong technical understanding of API design, data models, system integrations, and software architecture.
+Hands-on experience launching AI/LLM-powered features or workflows used by real customers in production.
+Ability to use AI coding tools such as Claude Code or Cursor for prototyping and product validation.
+Strong customer discovery, analytical thinking, communication, and decision-making skills.
+Must be authorized to work in the United States without employer-sponsored visa support.
+Willingness to travel domestically approximately once per month.
+Preferred Qualifications
+Experience building mortgage technology, loan origination, underwriting, or financial workflow automation products.
+Experience with AI agents, LLM applications, production AI workflows, and model evaluation.
+Technical background in software engineering, forward-deployed engineering, or product development.
+Familiarity with TypeScript and modern software development environments.
+Previous founder, early-stage startup, or founding product team experience.
+Experience working in fast-moving, resource-constrained environments.
+Compensation and Benefits
+Base salary: $170,000–$250,000 annually, depending on experience and qualifications.
+Competitive equity package.
+Opportunity to work with an experienced engineering team.
+Remote work within the United States.
+Opportunity to shape AI-powered products in the mortgage and financial technology industry.
+Work Arrangement
+This is a full-time, U.S.-based remote position. Candidates should be comfortable with approximately monthly domestic travel to customer locations, with occasional additional travel around important project milestones.
+Equal Employment Opportunity
+Premier Global Links LLC is an Equal Opportunity Employer. We consider qualified applicants without regard to race, color, religion, sex, national origin, age, disability, veteran status, or any other status protected by applicable law.
+To apply: https://weworkremotely.com/remote-jobs/premier-global-links-llc-senior-technical-product-manager
 ```
 ---
 
