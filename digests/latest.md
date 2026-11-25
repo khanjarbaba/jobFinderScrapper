@@ -1,6 +1,6 @@
-# Job Digest — 2026-11-24 13:14 UTC
+# Job Digest — 2026-11-25 12:04 UTC
 
-16 posting(s) matched above threshold. All compensation figures are in INR; foreign-currency conversions use live FX as of Tue, 24 Nov 2026 00:02:31 +0000.
+16 posting(s) matched above threshold. All compensation figures are in INR; foreign-currency conversions use live FX as of Wed, 25 Nov 2026 00:02:31 +0000.
 
 ## 🏠 Remote
 
